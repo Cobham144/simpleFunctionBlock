@@ -1,0 +1,10 @@
+*.compiled-library
+*.crc
+TwinCAT Project1/_Boot/TwinCAT RT (x64)/Plc/Port_851.cid
+*.autostart
+*.app
+*.compileinfo
+*.tpy
+*.tmc
+*.occ
+*.tizip
