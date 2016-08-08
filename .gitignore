@@ -8,3 +8,4 @@ TwinCAT Project1/_Boot/TwinCAT RT (x64)/Plc/Port_851.cid
 *.tmc
 *.occ
 *.tizip
+*.~u
