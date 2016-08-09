@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4019.2">
+  <POU Name="FB_SIMPLE" Id="{91874208-2b89-4cf9-b57b-9c2950ed7d8b}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_SIMPLE
+VAR_INPUT
+	bPizzaDone : BOOL;
+END_VAR
+VAR_OUTPUT
+	bLightOn : BOOL;
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bPizzaDone THEN
+	bLightOn := TRUE;
+ELSE
+	bLightOn := FALSE;
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
